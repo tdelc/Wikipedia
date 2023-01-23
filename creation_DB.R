@@ -11,7 +11,7 @@
 
 source("packages_fonctions.R")
 
-load("DB_WIKIPEDIA")
+load("objets_R/DB_WIKIPEDIA")
 
 LISTE_PAGES_WEB <- recup_pages_html(DB_SUJETS)
 
@@ -100,4 +100,4 @@ LISTE_DB_HISTO <- LISTE_DB_HISTO %>% map(~{
 save(DB_SUJETS,DB_PAGES,
      LISTE_DB_DETAILS_PAGES,
      LISTE_DB_HISTO,
-     file = "DB_WIKIPEDIA")
+     file = "objets_R/DB_WIKIPEDIA")

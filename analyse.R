@@ -11,7 +11,7 @@
 
 source("packages_fonctions.R")
 
-load("DB_WIKIPEDIA")
+load("objets.R/DB_WIKIPEDIA")
 
 ###########
 # Sources #

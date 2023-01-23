@@ -159,5 +159,5 @@ lapply(1:length(PAGES_HISTO_DETAILS), function(i){
 # Sauvegarde du scrapping #
 ###########################
 
-save(DB_SUJETS,file="DB_SUJETS")
+save(DB_SUJETS,file="objets_R/DB_SUJETS")
 
