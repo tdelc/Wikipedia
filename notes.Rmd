@@ -1,0 +1,41 @@
+---
+title: "Wikipedia"
+output: html_notebook
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+Je prends ici mes notes sur le projet wikipedia. A la fois un projet de
+webscraping complet et structuré. Mais aussi comme un exemple d'analyse
+des données avec les bases de données obtenus.
+
+A la fois des données quantitatives et des données textuelles.
+
+La question principale est *Comment un sujet d'actualité devient une
+entrée encyclopédique ?*.
+
+Cela implique les sous questions suivantes :
+
+-   Evolution de la taille de l'article
+-   Différence entre un sujet national / international
+-   Différence entre les langues de l'article
+-   Evolution du statut de l'article vers certifié
+
+Et ensuite un focus sur les 'controverses' : - Classifier les *undo* -
+Nombre de mots - Rapidité des modifs - Statut : Ajout / Suppression /
+Modifications - Evolution des undo avant stabilisation - Statut des
+personnes impliquées
+
+Plusieurs objets, à chaque fois avec le même nombre d'éléments : le
+nombre de sujets d'actualité
+
+1: Page de base - Une liste : X pages html de base - Une liste : X pages
+html de stats - Une DB : synthèse de l'information
+
+2: Page d'historique - Une liste : X pages html historique - Une liste :
+X listes (une par X) -\> chaque historique - Une DB : synthèse de
+l'information 
+
+
+Un fichier scraping.R avec toutes les pages scrapées. Je conserver toutes les pages ensembles, dans un seul objets à la fin
